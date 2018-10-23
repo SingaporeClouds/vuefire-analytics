@@ -26,6 +26,7 @@ describe("Vue component tests", () => {
     const defaultData = App.data();
     expect(defaultData.localLineData.length).toBe(3);
     expect(defaultData.localBarData.length).toBe(5);
+    expect(typeof defaultData.title).toBe("string");
   });
   it("Current chart should be localBarData.", () => {
     const defaultData = App.data();
