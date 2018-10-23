@@ -10,7 +10,7 @@ export default {
   name: `App`,
   data() {
     return {
-      title: "Some title",
+      title: "Some new title",
       currentChart: "localBarData",
       localBarData: [
         ["Jan", 4],
