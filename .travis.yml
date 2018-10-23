@@ -8,7 +8,3 @@ branches:
 
 install:
   - npm install
-
-script:
-  - npm run-script test
-
